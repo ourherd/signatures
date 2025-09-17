@@ -25,7 +25,7 @@ const templates = {
         .c17{vertical-align:middle;width:259.5pt}
         .c6{vertical-align:middle;width:324pt}
         .c16{color:#002554;font-weight:600;text-decoration:none;vertical-align:baseline;font-size:13pt;font-family:Montserrat, sans-serif;font-style:normal}
-        .c15{color:#002554;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:10.5pt;font-family:Montserrat, sans-serif;font-style:normal}
+        .c15{font-size:10.5pt;font-family:Montserrat,sans-serif;color:#002554;background-color:transparent;font-weight:300;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap}
         .c30{color:#222222;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:6pt;font-family:Arial, sans-serif;font-style:normal}
         .c13{padding-top:0pt;padding-bottom:0pt;line-height:1.656;text-align:left;height:11pt}
         .c20{padding-top:0pt;padding-bottom:0pt;line-height:1.656;text-align:left}
@@ -70,9 +70,9 @@ const templates = {
         .c12{vertical-align:middle;width:257.2pt}
         .c5{vertical-align:middle;width:321.8pt}
         .c34{color:#002554;font-weight:600;text-decoration:none;vertical-align:baseline;font-size:13pt;font-family:Montserrat, sans-serif;font-style:normal}
-        .c15{color:#002554;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:10.5pt;font-family:Montserrat, sans-serif;font-style:normal}
+        .c15{font-size:10.5pt;font-family:Montserrat,sans-serif;color:#002554;background-color:transparent;font-weight:300;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap}
         .c32{color:#222222;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:5pt;font-family:Arial, sans-serif;font-style:normal}
-        .c33{color:#2b7de1;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:10pt;font-family:Montserrat, sans-serif;font-style:normal}
+        .c33{font-size:10pt;font-family:Montserrat,sans-serif;color:#2b7de1;background-color:transparent;font-weight:300;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap}
         .c39{font-size:10pt;font-family:Montserrat, sans-serif;color:#2b7de1;font-weight:400}
         .c13{padding-top:0pt;padding-bottom:0pt;line-height:1.656;text-align:left;height:11pt}
         .c20{padding-top:0pt;padding-bottom:0pt;line-height:1.656;text-align:left}
@@ -104,7 +104,7 @@ const templates = {
             </td>
         </tr>
     </table>
-    <p class="c21 c10" style="margin-top: 12pt; margin-bottom: 6pt;"><span class="c39">I acknowledge the Aboriginal and Torres Strait Islander peoples as traditional custodians of the land on which batyr operates, and pay my respect to Elders past and present.</span></p>
+    <p class="c21 c10" style="margin-top: 12pt; margin-bottom: 6pt;"><span class="c33">I acknowledge the Aboriginal and Torres Strait Islander peoples as traditional custodians of the land on which batyr operates, and pay my respect to Elders past and present.</span></p>
     <p class="c21 c10" style="margin-bottom: 12pt;"><span class="c33">batyr is committed to providing a safe, culturally appropriate, inclusive environment for all people, regardless of their ethnicity, faith, disability, sexuality, or gender identity.</span></p>
     <p class="c21 c10" style="margin-top: 12pt;"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 155.50px; height: 22.00px;"><img alt="" src="${IMAGES.certified}" style="width: 155.50px; height: 22.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
 </body>
