@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batyr Email Signature Generator</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Email Signature Generator</h1>
+        </header>
+
+        <main>
+            <div class="main-card">
+                <h2>Tell Us About You!</h2>
+                <form id="signatureForm">
+                    <div class="form-group">
+                        <label for="name">Your Name *</label>
+                        <input type="text" id="name" name="name" required value="Sarah Chen">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="position">Your Role at Batyr *</label>
+                        <input type="text" id="position" name="position" required value="Youth Mental Health Advocate">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Contact Number (optional)</label>
+                        <input type="tel" id="phone" name="phone" value="0400 123 456">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pronouns">Your Pronouns (we celebrate all identities!)</label>
+                        <input type="text" id="pronouns" name="pronouns" value="she/her">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="template">Choose Your Signature Style *</label>
+                        <select id="template" name="template" required>
+                            <option value="long">Standard Long Version (for new emails)</option>
+                            <option value="short">Standard Short Version (for reply/forward)</option>
+                        </select>
+                    </div>
+                </form>
+
+                <div class="preview-tabs">
+                    <button class="tab-button active" data-tab="preview">Preview</button>
+                    <button class="tab-button" data-tab="html">HTML Code</button>
+                </div>
+
+                <div class="tab-content" id="previewTab">
+                    <div class="signature-preview" id="signaturePreview"></div>
+                </div>
+
+                <div class="tab-content" id="htmlTab" style="display: none;">
+                    <div class="code-container">
+                        <textarea id="htmlCode" readonly class="html-code"></textarea>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="btn-secondary" id="copySignature">Copy Signature</button>
+                    <button class="btn-tertiary" id="resetForm">Reset Form</button>
+                </div>
+
+            </div>
+        </main>
+
+        <footer>
+            <p>Internal use only.</p>
+        </footer>
+    </div>
+
+    <div id="notification" class="notification"></div>
+
+    <script src="assets/js/signature-generator.js"></script>
+</body>
+</html>
