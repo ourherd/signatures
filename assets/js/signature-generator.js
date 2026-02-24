@@ -1,16 +1,18 @@
 // Email Signature Generator
-const IMAGE_BASE_URL = 'https://batyr-assets.s3.ap-southeast-2.amazonaws.com/signatures/';
+const IMAGE_BASE_URL =
+    'https://batyr-assets.s3.ap-southeast-2.amazonaws.com/signatures/';
 
 // Image mapping
 const IMAGES = {
     logo: IMAGE_BASE_URL + 'batyr-logo.png',
-    social1: IMAGE_BASE_URL + 'facebook-icon.png',
-    social2: IMAGE_BASE_URL + 'twitter-icon.png',
+    social1: IMAGE_BASE_URL + 'website-icon.png',
+    social2: IMAGE_BASE_URL + 'linkedin-icon.png',
     social3: IMAGE_BASE_URL + 'instagram-icon.png',
-    social4: IMAGE_BASE_URL + 'website-icon.png',
-    social5: IMAGE_BASE_URL + 'batyr-chat-icon.png',
-    batyr: IMAGE_BASE_URL + 'batyr-app-text.png',
-    certified: IMAGE_BASE_URL + 'diversity-flags.png'
+    social4: IMAGE_BASE_URL + 'tiktok-icon.png',
+    social5: IMAGE_BASE_URL + 'facebook-icon.png',
+    social6: IMAGE_BASE_URL + 'youtube-icon.png',
+    social7: IMAGE_BASE_URL + 'pintrest-icon.png',
+    certified: IMAGE_BASE_URL + 'diversity-flags.png',
 };
 
 // Signature templates
@@ -54,7 +56,42 @@ const templates = {
         <tr class="c29">
             <td class="c6" colspan="2" rowspan="1">
                 <p class="c10 c13"><span class="c30" aria-hidden="true"></span></p>
-                <p class="c20 c10"><a href="https://www.facebook.com/batyraus/" style="text-decoration:none;" title="Visit Batyr on Facebook" aria-label="Visit Batyr on Facebook"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 28.16px;"><img alt="Facebook" src="${IMAGES.social1}" style="width: 28.50px; height: 28.16px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="Facebook"></span></a><a href="https://twitter.com/batyraus" style="text-decoration:none;" title="Visit Batyr on X (Twitter)" aria-label="Visit Batyr on X (Twitter)"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 29.50px; height: 28.55px;"><img alt="X (Twitter)" src="${IMAGES.social2}" style="width: 29.50px; height: 28.55px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="X (Twitter)"></span></a><a href="https://www.instagram.com/batyraus/" style="text-decoration:none;" title="Visit Batyr on Instagram" aria-label="Visit Batyr on Instagram"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 28.99px;"><img alt="Instagram" src="${IMAGES.social3}" style="width: 28.50px; height: 28.99px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="Instagram"></span></a><a href="https://www.batyr.com.au/" style="text-decoration:none;" title="Visit Batyr website" aria-label="Visit Batyr website"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 29.19px;"><img alt="Batyr website" src="${IMAGES.social4}" style="width: 28.50px; height: 29.19px; margin-left: -0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="Batyr website"></span></a><a href="https://www.ourherd.io/" style="text-decoration:none;" title="Visit OurHerd chat platform" aria-label="Visit OurHerd chat platform"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 31.27px; height: 28.80px;"><img alt="OurHerd chat" src="${IMAGES.social5}" style="width: 31.27px; height: 28.80px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="OurHerd chat"></span></a><a href="https://www.ourherd.io/" style="text-decoration:none;" title="Download OurHerd app" aria-label="Download OurHerd app"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 115.20px; height: 28.80px;"><img alt="Download OurHerd app" src="${IMAGES.batyr}" style="width: 115.20px; height: 28.80px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="Download OurHerd app"></span></a></p>
+                <p class="c10 c20" style="margin-top: 6pt; margin-bottom: 12pt;"><a href="https://www.batyr.com.au/"
+        style="text-decoration:none;" title="Visit Batyr website" aria-label="Visit Batyr website"><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 28.16px;"><img
+                alt="Batyr website" src="${IMAGES.social1}"
+                style="width: 28.50px; height: 28.16px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title="Batyr website"></span></a><a href="https://www.linkedin.com/company/batyr-pty-ltd/" style="text-decoration:none;"
+        title="Visit Batyr on LinkedIn" aria-label="Visit Batyr on LinkedIn"><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 29.50px; height: 28.55px;"><img
+                alt="LinkedIn" src="${IMAGES.social2}"
+                style="width: 29.50px; height: 28.55px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title="LinkedIn"></span></a><a href="https://www.instagram.com/batyraus/"
+        style="text-decoration:none;" title="Visit Batyr on Instagram" aria-label="Visit Batyr on Instagram"><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 28.99px;"><img
+                alt="Instagram" src="${IMAGES.social3}"
+                style="width: 28.50px; height: 28.99px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title="Instagram"></span></a><a href="https://www.tiktok.com/@batyraus" style="text-decoration:none;"
+        title="Visit Batyr on TikTok" aria-label="Visit Batyr on TikTok"><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 29.19px;"><img
+                alt="TikTok" src="${IMAGES.social4}"
+                style="width: 28.50px; height: 29.19px; margin-left: -0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title="TikTok"></span></a><a href="https://www.facebook.com/batyraus/" style="text-decoration:none;"
+        title="Visit Batyr on Facebook" aria-label="Visit Batyr on Facebook"><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 31.27px; height: 28.80px;"><img
+                alt="Facebook" src="${IMAGES.social5}"
+                style="width: 31.27px; height: 28.80px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title="Facebook"></span></a><a href="https://www.youtube.com/@batyraustralia" style="text-decoration:none;"
+        title="Visit Batyr on Youtube" aria-label="Visit Batyr on Youtube"><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 31.27px; height: 28.80px;"><img
+                alt="Youtube" src="${IMAGES.social6}"
+                style="width: 31.27px; height: 28.80px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title="Youtube"></span></a><a href="https://au.pinterest.com/batyraus/" style="text-decoration:none;"
+        title="Visit Batyr on Pintrest" aria-label="Visit Batyr on Pintrest"><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 31.27px; height: 28.80px;"><img
+                alt="Pintrest" src="${IMAGES.social7}"
+                style="width: 31.27px; height: 28.80px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title="Pintrest"></span></a></p>
             </td>
         </tr>
     </table>
@@ -102,7 +139,42 @@ const templates = {
         <tr class="c3">
             <td class="c5" colspan="2" rowspan="1">
                 <p class="c13 c10"><span class="c32" aria-hidden="true"></span></p>
-                <p class="c10 c20" style="margin-top: 6pt; margin-bottom: 12pt;"><a href="https://www.facebook.com/batyraus/" style="text-decoration:none;" title="Visit Batyr on Facebook" aria-label="Visit Batyr on Facebook"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 28.16px;"><img alt="Facebook" src="${IMAGES.social1}" style="width: 28.50px; height: 28.16px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="Facebook"></span></a><a href="https://twitter.com/batyraus" style="text-decoration:none;" title="Visit Batyr on X (Twitter)" aria-label="Visit Batyr on X (Twitter)"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 29.50px; height: 28.55px;"><img alt="X (Twitter)" src="${IMAGES.social2}" style="width: 29.50px; height: 28.55px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="X (Twitter)"></span></a><a href="https://www.instagram.com/batyraus/" style="text-decoration:none;" title="Visit Batyr on Instagram" aria-label="Visit Batyr on Instagram"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 28.99px;"><img alt="Instagram" src="${IMAGES.social3}" style="width: 28.50px; height: 28.99px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="Instagram"></span></a><a href="https://www.batyr.com.au/" style="text-decoration:none;" title="Visit Batyr website" aria-label="Visit Batyr website"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 29.19px;"><img alt="Batyr website" src="${IMAGES.social4}" style="width: 28.50px; height: 29.19px; margin-left: -0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="Batyr website"></span></a><a href="https://www.ourherd.io/" style="text-decoration:none;" title="Visit OurHerd chat platform" aria-label="Visit OurHerd chat platform"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 31.27px; height: 28.80px;"><img alt="OurHerd chat" src="${IMAGES.social5}" style="width: 31.27px; height: 28.80px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="OurHerd chat"></span></a><a href="https://www.ourherd.io/" style="text-decoration:none;" title="Download OurHerd app" aria-label="Download OurHerd app"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 115.20px; height: 28.80px;"><img alt="Download OurHerd app" src="${IMAGES.batyr}" style="width: 115.20px; height: 28.80px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="Download OurHerd app"></span></a></p>
+                <p class="c10 c20" style="margin-top: 6pt; margin-bottom: 12pt;"><a href="https://www.batyr.com.au/"
+        style="text-decoration:none;" title="Visit Batyr website" aria-label="Visit Batyr website"><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 28.16px;"><img
+                alt="Batyr website" src="${IMAGES.social1}"
+                style="width: 28.50px; height: 28.16px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title="Batyr website"></span></a><a href="https://www.linkedin.com/company/batyr-pty-ltd/" style="text-decoration:none;"
+        title="Visit Batyr on LinkedIn" aria-label="Visit Batyr on LinkedIn"><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 29.50px; height: 28.55px;"><img
+                alt="LinkedIn" src="${IMAGES.social2}"
+                style="width: 29.50px; height: 28.55px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title="LinkedIn"></span></a><a href="https://www.instagram.com/batyraus/"
+        style="text-decoration:none;" title="Visit Batyr on Instagram" aria-label="Visit Batyr on Instagram"><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 28.99px;"><img
+                alt="Instagram" src="${IMAGES.social3}"
+                style="width: 28.50px; height: 28.99px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title="Instagram"></span></a><a href="https://www.tiktok.com/@batyraus" style="text-decoration:none;"
+        title="Visit Batyr on TikTok" aria-label="Visit Batyr on TikTok"><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 29.19px;"><img
+                alt="TikTok" src="${IMAGES.social4}"
+                style="width: 28.50px; height: 29.19px; margin-left: -0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title="TikTok"></span></a><a href="https://www.facebook.com/batyraus/" style="text-decoration:none;"
+        title="Visit Batyr on Facebook" aria-label="Visit Batyr on Facebook"><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 31.27px; height: 28.80px;"><img
+                alt="Facebook" src="${IMAGES.social5}"
+                style="width: 31.27px; height: 28.80px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title="Facebook"></span></a><a href="https://www.youtube.com/@batyraustralia" style="text-decoration:none;"
+        title="Visit Batyr on Youtube" aria-label="Visit Batyr on Youtube"><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 31.27px; height: 28.80px;"><img
+                alt="Youtube" src="${IMAGES.social6}"
+                style="width: 31.27px; height: 28.80px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title="Youtube"></span></a><a href="https://au.pinterest.com/batyraus/" style="text-decoration:none;"
+        title="Visit Batyr on Pintrest" aria-label="Visit Batyr on Pintrest"><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 31.27px; height: 28.80px;"><img
+                alt="Pintrest" src="${IMAGES.social7}"
+                style="width: 31.27px; height: 28.80px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title="Pintrest"></span></a></p>
             </td>
         </tr>
     </table>
@@ -110,7 +182,7 @@ const templates = {
     <p class="c21 c10" style="margin-bottom: 12pt;"><span class="c33">batyr is committed to providing a safe, culturally appropriate, inclusive environment for all people, regardless of their ethnicity, faith, disability, sexuality, or gender identity.</span></p>
     <p class="c21 c10" style="margin-top: 12pt;"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 155.50px; height: 22.00px;"><img alt="Aboriginal flag, Torres Strait Islander flag, Pride flag, and Transgender flag" src="${IMAGES.certified}" style="width: 155.50px; height: 22.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="Aboriginal flag, Torres Strait Islander flag, Pride flag, and Transgender flag"></span></p>
 </body>
-</html>`
+</html>`,
 };
 
 // DOM elements
@@ -126,18 +198,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Set up event listeners for reactive updates
     const inputs = form.querySelectorAll('input, select');
-    inputs.forEach(input => {
+    inputs.forEach((input) => {
         input.addEventListener('input', generateSignatureReactive);
         input.addEventListener('change', generateSignatureReactive);
     });
 
     // Tab switching
-    document.querySelectorAll('.tab-button').forEach(button => {
+    document.querySelectorAll('.tab-button').forEach((button) => {
         button.addEventListener('click', switchTab);
     });
 
     // Copy buttons
-    document.getElementById('copySignature').addEventListener('click', copySignature);
+    document
+        .getElementById('copySignature')
+        .addEventListener('click', copySignature);
     document.getElementById('resetForm').addEventListener('click', resetForm);
 
     // Generate initial signature with pre-populated values
@@ -152,7 +226,7 @@ function generateSignatureReactive() {
         position: formData.get('position').trim(),
         phone: formData.get('phone').trim(),
         pronouns: formData.get('pronouns').trim(),
-        template: formData.get('template')
+        template: formData.get('template'),
     };
 
     // Only generate if we have required fields
@@ -174,14 +248,14 @@ function generateSignature(e) {
 
 function switchTab(e) {
     // Update active tab button
-    document.querySelectorAll('.tab-button').forEach(btn => {
+    document.querySelectorAll('.tab-button').forEach((btn) => {
         btn.classList.remove('active');
     });
     e.target.classList.add('active');
 
     // Show/hide tab content
     const tabName = e.target.dataset.tab;
-    document.querySelectorAll('.tab-content').forEach(content => {
+    document.querySelectorAll('.tab-content').forEach((content) => {
         content.style.display = 'none';
     });
 
@@ -195,19 +269,28 @@ function switchTab(e) {
 async function copyHtmlCode() {
     try {
         await navigator.clipboard.writeText(htmlCode.value);
-        showNotification('Nice! HTML code copied and ready to paste!', 'success');
+        showNotification(
+            'Nice! HTML code copied and ready to paste!',
+            'success',
+        );
     } catch (err) {
         // Fallback for older browsers
         htmlCode.select();
         document.execCommand('copy');
-        showNotification('Nice! HTML code copied and ready to paste!', 'success');
+        showNotification(
+            'Nice! HTML code copied and ready to paste!',
+            'success',
+        );
     }
 }
 
 async function copySignature() {
     try {
         // Get the actual signature HTML (without wrapper)
-        const signatureContent = signaturePreview.querySelector('html') || signaturePreview.firstElementChild || signaturePreview;
+        const signatureContent =
+            signaturePreview.querySelector('html') ||
+            signaturePreview.firstElementChild ||
+            signaturePreview;
 
         // Create a temporary element to select the HTML
         const tempDiv = document.createElement('div');
@@ -239,9 +322,15 @@ async function copySignature() {
         selection.removeAllRanges();
         document.body.removeChild(tempDiv);
 
-        showNotification('Perfect! Your signature is copied and ready to go!', 'success');
+        showNotification(
+            'Perfect! Your signature is copied and ready to go!',
+            'success',
+        );
     } catch (err) {
-        showNotification('Oops! Let\'s try the HTML copy button instead - it works great!', 'error');
+        showNotification(
+            "Oops! Let's try the HTML copy button instead - it works great!",
+            'error',
+        );
     }
 }
 
