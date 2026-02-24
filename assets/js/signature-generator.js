@@ -6,11 +6,11 @@ const IMAGE_BASE_URL =
 const IMAGES = {
     logo: IMAGE_BASE_URL + 'batyr-logo.png',
     social1: IMAGE_BASE_URL + 'website-icon.png',
-    social2: IMAGE_BASE_URL + 'li-icon.png',
+    social2: IMAGE_BASE_URL + 'linkedin-icon.png',
     social3: IMAGE_BASE_URL + 'instagram-icon.png',
-    social4: IMAGE_BASE_URL + 'tt-icon.png',
+    social4: IMAGE_BASE_URL + 'tiktok-icon.png',
     social5: IMAGE_BASE_URL + 'facebook-icon.png',
-    social6: IMAGE_BASE_URL + 'yt-icon.png',
+    social6: IMAGE_BASE_URL + 'youtube-icon.png',
     social7: IMAGE_BASE_URL + 'pintrest-icon.png',
     certified: IMAGE_BASE_URL + 'diversity-flags.png',
 };
@@ -89,7 +89,7 @@ const templates = {
                 title="Youtube"></span></a><a href="https://au.pinterest.com/batyraus/" style="text-decoration:none;"
         title="Visit Batyr on Pintrest" aria-label="Visit Batyr on Pintrest"><span
             style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 31.27px; height: 28.80px;"><img
-                alt="Pintrest" src="${IMAGES.social6}"
+                alt="Pintrest" src="${IMAGES.social7}"
                 style="width: 31.27px; height: 28.80px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
                 title="Pintrest"></span></a></p>
             </td>
@@ -172,7 +172,7 @@ const templates = {
                 title="Youtube"></span></a><a href="https://au.pinterest.com/batyraus/" style="text-decoration:none;"
         title="Visit Batyr on Pintrest" aria-label="Visit Batyr on Pintrest"><span
             style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 31.27px; height: 28.80px;"><img
-                alt="Pintrest" src="${IMAGES.social6}"
+                alt="Pintrest" src="${IMAGES.social7}"
                 style="width: 31.27px; height: 28.80px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
                 title="Pintrest"></span></a></p>
             </td>
