@@ -78,19 +78,19 @@ const templates = {
                 style="width: 28.50px; height: 29.19px; margin-left: -0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
                 title="TikTok"></span></a><a href="https://www.facebook.com/batyraus/" style="text-decoration:none;"
         title="Visit Batyr on Facebook" aria-label="Visit Batyr on Facebook"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 31.27px; height: 28.80px;"><img
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 29.19px;"><img
                 alt="Facebook" src="${IMAGES.social5}"
-                style="width: 31.27px; height: 28.80px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                style="width: 28.50px; height: 28.99px;; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
                 title="Facebook"></span></a><a href="https://www.youtube.com/@batyraustralia" style="text-decoration:none;"
         title="Visit Batyr on Youtube" aria-label="Visit Batyr on Youtube"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 31.27px; height: 28.80px;"><img
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 29.19px;"><img
                 alt="Youtube" src="${IMAGES.social6}"
-                style="width: 31.27px; height: 28.80px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                style="width: 28.50px; height: 28.99px;; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
                 title="Youtube"></span></a><a href="https://au.pinterest.com/batyraus/" style="text-decoration:none;"
         title="Visit Batyr on Pintrest" aria-label="Visit Batyr on Pintrest"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 31.27px; height: 28.80px;"><img
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 29.19px;"><img
                 alt="Pintrest" src="${IMAGES.social7}"
-                style="width: 31.27px; height: 28.80px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                style="width: 28.50px; height: 28.99px;; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
                 title="Pintrest"></span></a></p>
             </td>
         </tr>
@@ -161,19 +161,19 @@ const templates = {
                 style="width: 28.50px; height: 29.19px; margin-left: -0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
                 title="TikTok"></span></a><a href="https://www.facebook.com/batyraus/" style="text-decoration:none;"
         title="Visit Batyr on Facebook" aria-label="Visit Batyr on Facebook"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 31.27px; height: 28.80px;"><img
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 29.19px;"><img
                 alt="Facebook" src="${IMAGES.social5}"
-                style="width: 31.27px; height: 28.80px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                style="width: 28.50px; height: 28.99px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
                 title="Facebook"></span></a><a href="https://www.youtube.com/@batyraustralia" style="text-decoration:none;"
         title="Visit Batyr on Youtube" aria-label="Visit Batyr on Youtube"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 31.27px; height: 28.80px;"><img
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 29.19px;"><img
                 alt="Youtube" src="${IMAGES.social6}"
-                style="width: 31.27px; height: 28.80px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                style="width: 28.50px; height: 28.99px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
                 title="Youtube"></span></a><a href="https://au.pinterest.com/batyraus/" style="text-decoration:none;"
         title="Visit Batyr on Pintrest" aria-label="Visit Batyr on Pintrest"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 31.27px; height: 28.80px;"><img
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 29.19px;"><img
                 alt="Pintrest" src="${IMAGES.social7}"
-                style="width: 31.27px; height: 28.80px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                style="width: 28.50px; height: 28.99px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
                 title="Pintrest"></span></a></p>
             </td>
         </tr>
