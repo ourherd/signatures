@@ -24,74 +24,33 @@ const templates = {
     <style type="text/css">
         ol{margin:0;padding:0}
         table td,table th{padding:0}
-        .c26{vertical-align:middle;width:64.5pt}
-        .c17{vertical-align:middle;width:259.5pt}
-        .c6{vertical-align:middle;width:324pt}
         .c16{color:#002554;font-weight:600;text-decoration:none;vertical-align:baseline;font-size:13pt;font-family:Montserrat, sans-serif;font-style:normal}
         .c15{font-size:10.5pt;font-family:Montserrat,sans-serif;color:#002554;background-color:transparent;font-weight:300;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap}
         .c30{color:#222222;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:6pt;font-family:Arial, sans-serif;font-style:normal}
         .c13{padding-top:0pt;padding-bottom:0pt;line-height:1.656;text-align:left;height:11pt}
         .c20{padding-top:0pt;padding-bottom:0pt;line-height:1.656;text-align:left}
         .c31{padding-top:0pt;padding-bottom:7pt;line-height:1.0;text-align:left}
-        .c8{border-spacing:0;border-collapse:collapse;margin-right:auto}
         .c21{padding-top:0pt;padding-bottom:0pt;line-height:1.0;text-align:left}
         .c10{orphans:2;widows:2}
-        .c29{height:0.5pt}
-        .c3{height:0pt}
     </style>
 </head>
 <body>
-    <table class="c8" role="presentation">
-        <tr class="c3">
-            <td class="c26" colspan="1" rowspan="1">
-                <p class="c21 c10"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 71.22px; height: 74.36px;"><img alt="Batyr logo" src="${IMAGES.logo}" style="width: 71.22px; height: 74.36px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="Batyr - the preventative mental health organisation"></span></p>
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;border-spacing:0;margin-right:auto;">
+        <tr>
+            <td colspan="1" rowspan="1" style="width:64.5pt;vertical-align:middle;">
+                <p class="c21 c10"><img alt="Batyr logo" src="${IMAGES.logo}" width="71" height="74" style="width:71.22px;height:74.36px;display:block;border:0;" title="Batyr - the preventative mental health organisation"></p>
             </td>
-            <td class="c17" colspan="1" rowspan="1">
+            <td colspan="1" rowspan="1" style="width:259.5pt;vertical-align:middle;">
                 <p class="c10 c31"><span class="c16">${data.name}</span></p>
                 <p class="c10 c21"><span class="c15">${data.position}</span></p>
                 ${data.phone ? `<p class="c21 c10"><span class="c15">${data.phone}</span></p>` : ''}
                 ${data.pronouns ? `<p class="c21 c10"><span class="c15">${data.pronouns}</span></p>` : ''}
             </td>
         </tr>
-        <tr class="c29">
-            <td class="c6" colspan="2" rowspan="1">
+        <tr>
+            <td colspan="2" rowspan="1" style="width:324pt;vertical-align:middle;">
                 <p class="c10 c13"><span class="c30" aria-hidden="true"></span></p>
-                <p class="c10 c20" style="margin-top: 6pt; margin-bottom: 12pt;"><a href="https://www.batyr.com.au/"
-        style="text-decoration:none;" title="Visit Batyr website" aria-label="Visit Batyr website"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 28.16px;"><img
-                alt="Batyr website" src="${IMAGES.social1}"
-                style="width: 28.50px; height: 28.16px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                title="Batyr website"></span></a><a href="https://www.linkedin.com/company/batyr-pty-ltd/" style="text-decoration:none;"
-        title="Visit Batyr on LinkedIn" aria-label="Visit Batyr on LinkedIn"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 29.50px; height: 28.55px;"><img
-                alt="LinkedIn" src="${IMAGES.social2}"
-                style="width: 29.50px; height: 28.55px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                title="LinkedIn"></span></a><a href="https://www.instagram.com/batyraus/"
-        style="text-decoration:none;" title="Visit Batyr on Instagram" aria-label="Visit Batyr on Instagram"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 28.99px;"><img
-                alt="Instagram" src="${IMAGES.social3}"
-                style="width: 28.50px; height: 28.99px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                title="Instagram"></span></a><a href="https://www.tiktok.com/@batyraus" style="text-decoration:none;"
-        title="Visit Batyr on TikTok" aria-label="Visit Batyr on TikTok"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 29.19px;"><img
-                alt="TikTok" src="${IMAGES.social4}"
-                style="width: 28.50px; height: 29.19px; margin-left: -0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                title="TikTok"></span></a><a href="https://www.facebook.com/batyraus/" style="text-decoration:none;"
-        title="Visit Batyr on Facebook" aria-label="Visit Batyr on Facebook"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 29.19px;"><img
-                alt="Facebook" src="${IMAGES.social5}"
-                style="width: 28.50px; height: 28.99px;; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                title="Facebook"></span></a><a href="https://www.youtube.com/@batyraustralia" style="text-decoration:none;"
-        title="Visit Batyr on Youtube" aria-label="Visit Batyr on Youtube"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 29.19px;"><img
-                alt="Youtube" src="${IMAGES.social6}"
-                style="width: 28.50px; height: 28.99px;; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                title="Youtube"></span></a><a href="https://au.pinterest.com/batyraus/" style="text-decoration:none;"
-        title="Visit Batyr on Pintrest" aria-label="Visit Batyr on Pintrest"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 29.19px;"><img
-                alt="Pintrest" src="${IMAGES.social7}"
-                style="width: 28.50px; height: 28.99px;; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                title="Pintrest"></span></a></p>
+                <p class="c10 c20" style="margin-top: 6pt; margin-bottom: 12pt;"><a href="https://www.batyr.com.au/" style="text-decoration:none;" title="Visit Batyr website" aria-label="Visit Batyr website"><img alt="Batyr website" src="${IMAGES.social1}" width="29" height="28" style="width:28.50px;height:28.16px;display:inline-block;border:0;vertical-align:middle;" title="Batyr website"></a><a href="https://www.linkedin.com/company/batyr-pty-ltd/" style="text-decoration:none;" title="Visit Batyr on LinkedIn" aria-label="Visit Batyr on LinkedIn"><img alt="LinkedIn" src="${IMAGES.social2}" width="30" height="29" style="width:29.50px;height:28.55px;display:inline-block;border:0;vertical-align:middle;" title="LinkedIn"></a><a href="https://www.instagram.com/batyraus/" style="text-decoration:none;" title="Visit Batyr on Instagram" aria-label="Visit Batyr on Instagram"><img alt="Instagram" src="${IMAGES.social3}" width="29" height="29" style="width:28.50px;height:28.99px;display:inline-block;border:0;vertical-align:middle;" title="Instagram"></a><a href="https://www.tiktok.com/@batyraus" style="text-decoration:none;" title="Visit Batyr on TikTok" aria-label="Visit Batyr on TikTok"><img alt="TikTok" src="${IMAGES.social4}" width="29" height="29" style="width:28.50px;height:29.19px;display:inline-block;border:0;vertical-align:middle;" title="TikTok"></a><a href="https://www.facebook.com/batyraus/" style="text-decoration:none;" title="Visit Batyr on Facebook" aria-label="Visit Batyr on Facebook"><img alt="Facebook" src="${IMAGES.social5}" width="29" height="29" style="width:28.50px;height:28.99px;display:inline-block;border:0;vertical-align:middle;" title="Facebook"></a><a href="https://www.youtube.com/@batyraustralia" style="text-decoration:none;" title="Visit Batyr on Youtube" aria-label="Visit Batyr on Youtube"><img alt="Youtube" src="${IMAGES.social6}" width="29" height="29" style="width:28.50px;height:28.99px;display:inline-block;border:0;vertical-align:middle;" title="Youtube"></a><a href="https://au.pinterest.com/batyraus/" style="text-decoration:none;" title="Visit Batyr on Pintrest" aria-label="Visit Batyr on Pintrest"><img alt="Pintrest" src="${IMAGES.social7}" width="29" height="29" style="width:28.50px;height:28.99px;display:inline-block;border:0;vertical-align:middle;" title="Pintrest"></a></p>
             </td>
         </tr>
     </table>
@@ -105,82 +64,40 @@ const templates = {
     <style type="text/css">
         ol{margin:0;padding:0}
         table td,table th{padding:0}
-        .c26{vertical-align:middle;width:64.5pt}
-        .c12{vertical-align:middle;width:257.2pt}
-        .c5{vertical-align:middle;width:321.8pt}
         .c34{color:#002554;font-weight:600;text-decoration:none;vertical-align:baseline;font-size:13pt;font-family:Montserrat, sans-serif;font-style:normal}
         .c15{font-size:10.5pt;font-family:Montserrat,sans-serif;color:#002554;background-color:transparent;font-weight:300;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap}
         .c32{color:#222222;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:5pt;font-family:Arial, sans-serif;font-style:normal}
         .c33{font-size:10pt;font-family:Montserrat,sans-serif;color:#2b7de1;background-color:transparent;font-weight:300;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap}
-        .c39{font-size:10pt;font-family:Montserrat, sans-serif;color:#2b7de1;font-weight:400}
         .c13{padding-top:0pt;padding-bottom:0pt;line-height:1.656;text-align:left;height:11pt}
         .c20{padding-top:0pt;padding-bottom:0pt;line-height:1.656;text-align:left}
-        .c4{padding-top:0pt;padding-bottom:0pt;line-height:1.0;text-align:left;height:11pt}
         .c31{padding-top:0pt;padding-bottom:7pt;line-height:1.0;text-align:left}
-        .c8{border-spacing:0;border-collapse:collapse;margin-right:auto}
         .c21{padding-top:0pt;padding-bottom:0pt;line-height:1.0;text-align:left}
         .c10{orphans:2;widows:2}
-        .c3{height:0pt}
     </style>
 </head>
 <body>
-    <table class="c8" role="presentation">
-        <tr class="c3">
-            <td class="c26" colspan="1" rowspan="1">
-                <p class="c21 c10"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 71.22px; height: 74.36px;"><img alt="Batyr logo" src="${IMAGES.logo}" style="width: 71.22px; height: 74.36px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="Batyr - the preventative mental health organisation"></span></p>
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;border-spacing:0;margin-right:auto;">
+        <tr>
+            <td colspan="1" rowspan="1" style="width:64.5pt;vertical-align:middle;">
+                <p class="c21 c10"><img alt="Batyr logo" src="${IMAGES.logo}" width="71" height="74" style="width:71.22px;height:74.36px;display:block;border:0;" title="Batyr - the preventative mental health organisation"></p>
             </td>
-            <td class="c12" colspan="1" rowspan="1">
+            <td colspan="1" rowspan="1" style="width:257.2pt;vertical-align:middle;">
                 <p class="c31 c10"><span class="c34">${data.name}</span></p>
                 <p class="c21 c10"><span class="c15">${data.position}</span></p>
                 ${data.phone ? `<p class="c21 c10"><span class="c15">${data.phone}</span></p>` : ''}
                 ${data.pronouns ? `<p class="c21 c10"><span class="c15">${data.pronouns}</span></p>` : ''}
             </td>
         </tr>
-        <tr class="c3">
-            <td class="c5" colspan="2" rowspan="1">
+        <tr>
+            <td colspan="2" rowspan="1" style="width:321.8pt;vertical-align:middle;">
                 <p class="c13 c10"><span class="c32" aria-hidden="true"></span></p>
-                <p class="c10 c20" style="margin-top: 6pt; margin-bottom: 12pt;"><a href="https://www.batyr.com.au/"
-        style="text-decoration:none;" title="Visit Batyr website" aria-label="Visit Batyr website"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 28.16px;"><img
-                alt="Batyr website" src="${IMAGES.social1}"
-                style="width: 28.50px; height: 28.16px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                title="Batyr website"></span></a><a href="https://www.linkedin.com/company/batyr-pty-ltd/" style="text-decoration:none;"
-        title="Visit Batyr on LinkedIn" aria-label="Visit Batyr on LinkedIn"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 29.50px; height: 28.55px;"><img
-                alt="LinkedIn" src="${IMAGES.social2}"
-                style="width: 29.50px; height: 28.55px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                title="LinkedIn"></span></a><a href="https://www.instagram.com/batyraus/"
-        style="text-decoration:none;" title="Visit Batyr on Instagram" aria-label="Visit Batyr on Instagram"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 28.99px;"><img
-                alt="Instagram" src="${IMAGES.social3}"
-                style="width: 28.50px; height: 28.99px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                title="Instagram"></span></a><a href="https://www.tiktok.com/@batyraus" style="text-decoration:none;"
-        title="Visit Batyr on TikTok" aria-label="Visit Batyr on TikTok"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 29.19px;"><img
-                alt="TikTok" src="${IMAGES.social4}"
-                style="width: 28.50px; height: 29.19px; margin-left: -0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                title="TikTok"></span></a><a href="https://www.facebook.com/batyraus/" style="text-decoration:none;"
-        title="Visit Batyr on Facebook" aria-label="Visit Batyr on Facebook"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 29.19px;"><img
-                alt="Facebook" src="${IMAGES.social5}"
-                style="width: 28.50px; height: 28.99px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                title="Facebook"></span></a><a href="https://www.youtube.com/@batyraustralia" style="text-decoration:none;"
-        title="Visit Batyr on Youtube" aria-label="Visit Batyr on Youtube"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 29.19px;"><img
-                alt="Youtube" src="${IMAGES.social6}"
-                style="width: 28.50px; height: 28.99px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                title="Youtube"></span></a><a href="https://au.pinterest.com/batyraus/" style="text-decoration:none;"
-        title="Visit Batyr on Pintrest" aria-label="Visit Batyr on Pintrest"><span
-            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 28.50px; height: 29.19px;"><img
-                alt="Pintrest" src="${IMAGES.social7}"
-                style="width: 28.50px; height: 28.99px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                title="Pintrest"></span></a></p>
+                <p class="c10 c20" style="margin-top: 6pt; margin-bottom: 12pt;"><a href="https://www.batyr.com.au/" style="text-decoration:none;" title="Visit Batyr website" aria-label="Visit Batyr website"><img alt="Batyr website" src="${IMAGES.social1}" width="29" height="28" style="width:28.50px;height:28.16px;display:inline-block;border:0;vertical-align:middle;" title="Batyr website"></a><a href="https://www.linkedin.com/company/batyr-pty-ltd/" style="text-decoration:none;" title="Visit Batyr on LinkedIn" aria-label="Visit Batyr on LinkedIn"><img alt="LinkedIn" src="${IMAGES.social2}" width="30" height="29" style="width:29.50px;height:28.55px;display:inline-block;border:0;vertical-align:middle;" title="LinkedIn"></a><a href="https://www.instagram.com/batyraus/" style="text-decoration:none;" title="Visit Batyr on Instagram" aria-label="Visit Batyr on Instagram"><img alt="Instagram" src="${IMAGES.social3}" width="29" height="29" style="width:28.50px;height:28.99px;display:inline-block;border:0;vertical-align:middle;" title="Instagram"></a><a href="https://www.tiktok.com/@batyraus" style="text-decoration:none;" title="Visit Batyr on TikTok" aria-label="Visit Batyr on TikTok"><img alt="TikTok" src="${IMAGES.social4}" width="29" height="29" style="width:28.50px;height:29.19px;display:inline-block;border:0;vertical-align:middle;" title="TikTok"></a><a href="https://www.facebook.com/batyraus/" style="text-decoration:none;" title="Visit Batyr on Facebook" aria-label="Visit Batyr on Facebook"><img alt="Facebook" src="${IMAGES.social5}" width="29" height="29" style="width:28.50px;height:28.99px;display:inline-block;border:0;vertical-align:middle;" title="Facebook"></a><a href="https://www.youtube.com/@batyraustralia" style="text-decoration:none;" title="Visit Batyr on Youtube" aria-label="Visit Batyr on Youtube"><img alt="Youtube" src="${IMAGES.social6}" width="29" height="29" style="width:28.50px;height:28.99px;display:inline-block;border:0;vertical-align:middle;" title="Youtube"></a><a href="https://au.pinterest.com/batyraus/" style="text-decoration:none;" title="Visit Batyr on Pintrest" aria-label="Visit Batyr on Pintrest"><img alt="Pintrest" src="${IMAGES.social7}" width="29" height="29" style="width:28.50px;height:28.99px;display:inline-block;border:0;vertical-align:middle;" title="Pintrest"></a></p>
             </td>
         </tr>
     </table>
     <p class="c21 c10" style="margin-top: 12pt; margin-bottom: 6pt;"><span class="c33">I acknowledge the Aboriginal and Torres Strait Islander peoples as traditional custodians of the land on which batyr operates, and pay my respect to Elders past and present.</span></p>
     <p class="c21 c10" style="margin-bottom: 12pt;"><span class="c33">batyr is committed to providing a safe, culturally appropriate, inclusive environment for all people, regardless of their ethnicity, faith, disability, sexuality, or gender identity.</span></p>
-    <p class="c21 c10" style="margin-top: 12pt;"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 155.50px; height: 22.00px;"><img alt="Aboriginal flag, Torres Strait Islander flag, Pride flag, and Transgender flag" src="${IMAGES.certified}" style="width: 155.50px; height: 22.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="Aboriginal flag, Torres Strait Islander flag, Pride flag, and Transgender flag"></span></p>
+    <p class="c21 c10" style="margin-top: 12pt;"><img alt="Aboriginal flag, Torres Strait Islander flag, Pride flag, and Transgender flag" src="${IMAGES.certified}" width="156" height="22" style="width:155.50px;height:22.00px;display:block;border:0;" title="Aboriginal flag, Torres Strait Islander flag, Pride flag, and Transgender flag"></p>
 </body>
 </html>`,
 };
